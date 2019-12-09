@@ -76,15 +76,20 @@ section#s4 hr{
 	content: "";
 }
 .toTop-arrow::before {
-	transform: rotate(-45deg) translate(0, -50%);
+	-webkit-transform: rotate(-45deg) translate(0, -50%);
+	        transform: rotate(-45deg) translate(0, -50%);
 	left: 0.5rem;
 }
 .toTop-arrow::after {
-	transform: rotate(45deg) translate(0, -50%);
+	-webkit-transform: rotate(45deg) translate(0, -50%);
+	        transform: rotate(45deg) translate(0, -50%);
 	right: 0.5rem;
 }
 .toTop-arrow:focus {outline: none;}
 .card{
   margin-top: 20px ;
   margin-bottom: 20px ;
+}
+section#s4 .col-sm-4{
+	padding-top: 30px;
 }
